@@ -1,0 +1,15 @@
+{
+  "name": "react-web-app",
+  "version": "1.0.0",
+  "description": "React.js + Firebase web app template",
+  "author": "Preet Vadaliya",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "functions"
+  ],
+  "scripts": {
+    "dev:app": "cd app && yarn dev"
+  }
+}
