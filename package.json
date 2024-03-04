@@ -10,6 +10,12 @@
     "functions"
   ],
   "scripts": {
-    "dev:app": "cd app && yarn dev"
+    "dev:app": "cd app && yarn dev",
+    "dev:functions": "cd functions && yarn dev",
+    "build:app": "cd app && yarn build",
+    "build:functions": "cd functions && yarn build",
+    "deploy:app": "cd app && yarn deploy",
+    "deploy:functions": "cd functions && yarn deploy",
+    "firebase": "firebase emulators:start --import database --export-on-exit database"
   }
 }
